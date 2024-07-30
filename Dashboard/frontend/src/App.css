@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Nav li{
+  display: inline;
+  margin: 20px;
+  font-size: large; 
+}
+.Nav{
+    background-color:blanchedalmond;
+    padding: 20px;
+}
+.Nav li a{
+    text-decoration: none;
+    color:cadetblue
+}
+.navRight{
+    text-align: right;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 35%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 26px;
+    background-color:whitesmoke;
+    font-size: large; 
+}
+.btn btn-primary{
+    margin: 10px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-left: 35%;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 26px;
+    background-color:whitesmoke;
+    font-size: large; 
+}
+
+.addproducts span{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.addproducts{
+    color: red;
+   display: block;
+   border: 2px solid red;
+   width: 300px;
+   height: 350px;
+   margin-left: 40%;
+   background-color: rgb(237, 234, 229);
+   
+}
+.addproducts button{
+    margin-left: 28%;
+}
+.addproducts input{
+    margin: 10px;
+    width: 80%;
+    font-size: 20px;
+}
+.list{
+text-align: center;
+
+}
+.list ul li {
+    display: inline-block;
+    width: 150px;
+    
+    border: 1px solid red;
+    padding: 5px;
+}
+.footer{
+    background-color:blanchedalmond;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color:brown
+}
+.search{
+margin-left: 42%;
+    
+}
